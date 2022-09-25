@@ -115,7 +115,7 @@ public class Car {
 			    + "count: " + this.count + "\n";
 		return returnVal;
 	}
-	
+	  
 	private void decisionPrice(int maxSpeed) {
 
 		if(maxSpeed < 150) {
