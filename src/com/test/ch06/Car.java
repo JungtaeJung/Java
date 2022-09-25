@@ -103,7 +103,7 @@ public class Car {
 		this.price = price;
 	}
 	
-	
+	 
 	public String toString() {
 		String returnVal = "";
 		returnVal = "company: " + this.company + "\n"
@@ -115,7 +115,7 @@ public class Car {
 			    + "count: " + this.count + "\n";
 		return returnVal;
 	}
-	  
+	  	
 	private void decisionPrice(int maxSpeed) {
 
 		if(maxSpeed < 150) {

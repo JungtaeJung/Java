@@ -14,7 +14,7 @@ public class CarExample {
 		
 		Car car2 = new Car("기아");
 		System.out.println(car2.toString());
-
+ 
 		Car car3 = new Car("테슬라","모델S","white");
 		car3.setColor("Red");
 		car3.setMaxSpeed(120);
